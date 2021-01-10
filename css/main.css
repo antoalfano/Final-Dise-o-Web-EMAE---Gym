@@ -1,0 +1,297 @@
+header {
+  height: 80px !important;
+  background-color: rgba(0, 0, 0, 0.897);
+}
+.list {
+  /* position: absolute; */
+  width: 100%;
+  padding-top: 6px;
+}
+
+.list ul {
+  text-align: center;
+}
+
+.list ul li {
+  display: inline-block;
+}
+
+.list ul li a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 24px;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+  padding: 15px;
+  transition: all ease 0.5s;
+}
+
+.list ul li a:hover {
+  background-color: grey;
+  color: orange;
+}
+
+.logo {
+  position: absolute;
+  width: auto;
+  height: 80px;
+  padding-left: 7%;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+#img1 {
+  width: auto;
+  height: 400px;
+  margin-top: 100px;
+}
+.title-trainer {
+  color: orangered;
+  text-align: center;
+}
+.description-trainer {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+main {
+  background-color: #f0f5fb;
+}
+
+.img-pesas {
+  display: none;
+}
+.col p {
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+}
+
+.btn {
+  color: black !important;
+}
+
+/*CLASES*/
+.class-container {
+  background-color: black;
+}
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+
+h4 {
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+}
+
+/*SERVICIOS*/
+.personal-container {
+  background-color: #fd8123;
+  padding: 10px;
+}
+.personal-title {
+  font-size: 60px !important;
+  text-shadow: 2px 2px 3px black;
+}
+
+.personal-description {
+  font-size: 40px !important;
+}
+
+.personal-img {
+  text-align: center;
+}
+
+.pesas {
+  width: 280px;
+  height: 280px;
+}
+
+.personal-description {
+  font-family: "Bebas Neue", cursive;
+
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.personal-title {
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.button3 {
+  color: black !important;
+  font-size: 20px;
+}
+
+/*PIE*/
+
+.foot {
+  background-color: black;
+  width: 100%;
+}
+
+.pie {
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.img-foot {
+  height: 35px;
+}
+
+.wsp {
+  width: 30px;
+  height: 30px;
+}
+
+.face {
+  width: 25px;
+  height: 25px;
+}
+
+.ig {
+  width: 25px;
+  height: 25px;
+}
+
+.tt {
+  width: 30px;
+  height: 30px;
+}
+
+/*INDEX2*/
+.carousel-caption h5 {
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  font-size: 52px;
+  letter-spacing: 1px;
+}
+
+.card-title {
+  font-family: "Bebas Neue", cursive;
+  color: orangered;
+}
+
+.card-text {
+  font-family: "Bebas Neue", cursive;
+  font-size: 15px;
+}
+
+.text-center {
+  margin-top: 50px;
+}
+
+.titulo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+.titulo2 {
+  color: black;
+}
+
+.card-group {
+  padding: 100px;
+}
+
+.btn4 {
+  border-radius: 20px;
+}
+
+.newsletter-container {
+  background-color: black;
+  color: white;
+  padding: 3%;
+}
+
+.custom-eichori {
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+}
+
+/*INDEX3*/
+
+.table-timer {
+  top: 110px;
+  left: 15%;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  border-collapse: separate !important;
+}
+.blackainer {
+  display: none;
+}
+th {
+  color: black;
+  text-shadow: 2px 2px 3px orangered;
+  font-size: 25px;
+}
+td {
+  padding: auto 20px !important;
+  color: white;
+  text-shadow: 2px 2px 3px black;
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 991px) {
+  .img-pesas {
+    display: block;
+  }
+  .table-timer {
+    top: 15%;
+  }
+  .blackainer {
+    display: block;
+  }
+}
+
+/*PUBLICIDAD*/
+.publicity-container {
+  height: 100px !important;
+}
+.publicidad {
+  height: 100px !important;
+  margin-top: 100px;
+}
+
+#publi {
+  width: 1115px;
+  height: 500px;
+}
+
+/*PHP REGISTRO*/
+.bien {
+  text-align: center;
+  width: 100%;
+  padding: 12px;
+  background-color: green;
+  color: white;
+}
+
+.error {
+  text-align: center;
+  width: 100%;
+  padding: 12px;
+  background-color: red;
+  color: white;
+}
